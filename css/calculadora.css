@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(to right, #01f1dd, rgb(118, 206, 228) , #12b4e6);
+    text-align: center;
+    margin-top: 10%;
+}
+
+input{
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
