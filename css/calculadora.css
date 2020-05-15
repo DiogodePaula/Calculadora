@@ -10,3 +10,7 @@ input{
     border-radius: 10px;
     text-align: center;
 }
+
+#lblResultado{
+    font-size: 40px;
+}

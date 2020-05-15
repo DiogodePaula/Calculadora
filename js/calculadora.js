@@ -25,15 +25,27 @@ class Calculadora {
     }
 
     subtracao(){
-        this.valor1.value - this.valor2.value;
+        const resultado = parseFloat(this.valor1.value) - parseFloat(this.valor2.value);
+
+        document.getElementById("lblResultado").innerHTML = `
+        <label>${resultado}</label>
+        `
     }
 
     multiplicacao(){
-        this.valor1 * this.valor2;
+        const resultado = parseFloat(this.valor1.value) * parseFloat(this.valor2.value);
+
+        document.getElementById("lblResultado").innerHTML = `
+        <label>${resultado}</label>
+        `
     }
 
     divisao(){
-        this.valor1 / this.valor2;
+        const resultado = parseFloat(this.valor1.value) / parseFloat(this.valor2.value);
+
+        document.getElementById("lblResultado").innerHTML = `
+        <label>${resultado}</label>
+        `
     }
 }
 new Calculadora();
